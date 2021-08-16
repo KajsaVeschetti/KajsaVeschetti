@@ -1,0 +1,386 @@
+/* Skärmar mindre är 1125 */
+/* Navigation */
+#navbar .logo {
+  width: 33%;
+  margin-top: 2.5rem;
+}
+
+#contact-a input,
+#contact-a textarea {
+  border: 1px #aaa solid;
+}
+
+#become-member input,
+#become-member .type {
+  border: 1px #aaa solid;
+}
+.map {
+  height: 300px;
+  width: 100%;
+}
+
+/* Ipad */
+@media (max-width: 986px) {
+  /* Navigation */
+  #navbar .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-around;
+    grid-gap: 0.5rem;
+  }
+
+  #navbar .container ul {
+    justify-self: center;
+    padding: 0;
+  }
+  #navbar .logo {
+    width: 100%;
+  }
+
+  /* Dagens Pass */
+
+  #dagens p {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+  #dagens h3 {
+    margin: 0;
+  }
+
+  #dagens .week {
+    grid-auto-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 550px;
+  }
+
+  /* Coacher */
+  #coacher .coach-box {
+    padding: 1rem;
+    margin: 2.1rem;
+  }
+
+  #coacher .page-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.45rem;
+    justify-content: center;
+  }
+
+  #coacher .more {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    width: 91%;
+  }
+}
+
+.map {
+  height: 300px;
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+/* Telefoner */
+@media (max-width: 375px) {
+  /* Återkommande Classer */
+
+  .container {
+    margin: auto;
+    max-width: 375px;
+  }
+
+  .page-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .page-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  /* Navigation */
+  #navbar {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  #navbar .logo {
+    grid-column: 1;
+    grid-row: 1;
+    width: 86%;
+    padding-left: 10px;
+    float: none;
+    text-align: center;
+  }
+
+  #navbar ul,
+  #navbar ul li {
+    float: none;
+    display: inline;
+    font-size: 0.9rem;
+    padding: 0;
+  }
+
+  #navbar a {
+    display: inline-block;
+  }
+
+  /* Förstasidan */
+  .img-last {
+    display: none;
+  }
+  #intro .page-container .welcome {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  #intro .page-container .intro-img {
+    grid-column: 1;
+    grid-row: 2;
+    max-height: 100px;
+  }
+
+  #intro .page-container .text-intro {
+    grid-column: 1;
+    grid-row: 3;
+    padding-top: 10px;
+  }
+  #intro .page-container .pass {
+    grid-column: 1;
+    grid-row: 5;
+    margin: 17px;
+  }
+  #intro .page-container .new {
+    grid-column: 1;
+    grid-row: 6;
+    margin: 17px;
+  }
+  #intro .page-container .test {
+    grid-column: 1;
+    grid-row: 7;
+    margin: 17px;
+  }
+
+  /* Nybörjarkurs */
+  #nyborjare .page-grid .head-text {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #nyborjare .page-grid .img {
+    grid-column: 1;
+    grid-row: 2;
+    max-height: 100px;
+  }
+  #nyborjare .page-grid .text-container {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  #nyborjare .page-grid .start {
+    grid-column: 1;
+    grid-row: 4;
+    margin: 17px;
+  }
+  #nyborjare .page-grid .medlem {
+    grid-column: 1;
+    grid-row: 5;
+    margin: 17px;
+  }
+  #nyborjare .page-grid .avbokning {
+    grid-column: 1;
+    grid-row: 6;
+    margin: 17px;
+  }
+
+  /* Dagens */
+  #dagens p {
+    line-height: 1rem;
+  }
+
+  #dagens .fat {
+    font-style: italic;
+    line-height: 1.3rem;
+  }
+
+  #dagens .heading {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  #dagens .dag-1 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  #dagens .dag-2 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  #dagens .dag-3 {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  #dagens .dag-4 {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  #dagens .dag-5 {
+    grid-column: 1;
+    grid-row: 4;
+  }
+
+  /* CrossFit Kids */
+  #kids .page-grid .head-text {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #kids .page-grid .head-text {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  #kids .page-grid .text-container {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  #kids .page-grid .anmal {
+    grid-column: 1;
+    grid-row: 4;
+    margin: 17px;
+  }
+  #kids .page-grid .img {
+    grid-column: 1;
+    grid-row: 5;
+  }
+
+  /* Pris-sida */
+  #price-info .page-grid .price .price-head {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+
+  #price-info .page-grid .price .choice {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #price-info .page-grid .price .pris {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  #price-info .page-grid .new {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    margin: 17px;
+  }
+
+  #price-info .page-grid .medlem {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+    margin: 17px;
+  }
+
+  /* Om Oss */
+  #about-us h4 {
+    text-align: center;
+  }
+  #about-us .page-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #about-us .head-container {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  #about-us .text-container {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #about-us .pic-container {
+    grid-column: 1;
+    grid-row: 3;
+  }
+
+  /* Coacher */
+  #coacher .page-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+
+  #coacher .coach-box {
+    margin-top: 0;
+  }
+
+  #coacher .page-grid .rambo {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  #coacher .page-grid .simon {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  #coacher .more {
+    grid-column: 1;
+    grid-row: 3;
+    width: 250px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: -5px;
+  }
+
+  #coacher .card-red h4 {
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+  }
+
+  /* Kontakt */
+  #contact-a .text-field {
+    grid-template-columns: 1fr;
+  }
+
+  #contact-a .text-field .name-input {
+    grid-column: 1;
+    grid-row: 1;
+    width: 300px;
+  }
+  #contact-a .text-field .subject-input {
+    grid-column: 1;
+    grid-row: 2;
+    width: 300px;
+  }
+  #contact-a .text-field .email-input {
+    grid-column: 1;
+    grid-row: 3;
+    width: 300px;
+  }
+  #contact-a .text-field .phone-input {
+    grid-column: 1;
+    grid-row: 4;
+    width: 300px;
+  }
+  #contact-a .text-field .message-input {
+    grid-column: 1;
+    grid-row: 5;
+    height: 150px;
+  }
+
+  /* Bli medlem */
+  #become-member .card-red {
+    margin: 17px;
+  }
+
+  /* Footer */
+  #footer .footer-content {
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+
+  #footer .footer-content .social {
+    font-size: 0.7rem;
+    margin-bottom: 1px;
+  }
+}

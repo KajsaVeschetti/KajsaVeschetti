@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/efbc05f753.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1125px)"
+      href="css/mobile.css"
+    />
+    <title>Tullinge CrossFit | Forging Elite Fitness</title>
+  </head>
+  <body>
+    <!-- Header / Navbar -->
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <a href="index.html">
+            <img src="img/Tullinge.png" alt="" class="logo" />
+          </a>
+          <ul>
+            <li><a href="index.html">Hem</a></li>
+            <li>
+              <a href="#">Träna</a>
+              <ul>
+                <li class="drop-small">
+                  <a href="nyborjare.html">Nybörjarkurs</a>
+                </li>
+                <li class="drop-small">
+                  <a href="dagens.html">Dagens Pass</a>
+                </li>
+
+                <li class="drop-small">
+                  <a href="kids.html">CrossFit Kids</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="priser.html">Priser</a></li>
+            <li>
+              <a href="http://tullingecrossfit.bokningscenter.se/">Boka Pass</a>
+            </li>
+            <li>
+              <a href="omoss.html">Om Oss</a>
+              <ul>
+                <li class="drop-small"><a href="coacher.html">Coacher</a></li>
+              </ul>
+            </li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a href="blimedlem.html" class="current">Bli Medlem</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Bli medlem-formulär -->
+    <section id="become-member" class="text-center">
+      <div class="container">
+        <div class="page-container">
+          <div class="form-div">
+            <h2 class="section-title">
+              Bli medlem
+            </h2>
+            <p class="main">
+              Fyll i nedan formulär så är du ett steg närmare till att bli en av
+              våra CrossFit Atleter.
+            </p>
+            <form>
+              <div class="text-field">
+                <p>Namn<span> (måste anges)</span></p>
+                <input
+                  type="text"
+                  class="text-input name-input"
+                  placeholder="Namn"
+                />
+                <p>Personnummer<span> (måste anges)</span></p>
+                <input
+                  type="text"
+                  class="text-input age-input"
+                  placeholder="ÅÅMMDD-XXXX"
+                />
+                <p>
+                  Mailadress (fakturan skickas hit)
+                  <span> (måste anges)</span>
+                </p>
+                <input
+                  type="email"
+                  class="text-input email-input"
+                  placeholder="Email"
+                />
+                <p>Adress<span> (måste anges)</span></p>
+                <input
+                  type="text"
+                  class="text-input address-input"
+                  placeholder="Adress"
+                />
+                <p>Välj typ av medlemskap <span> (måste anges)</span></p>
+                <select name="type" class="type">
+                  <option value="Årskort">Årskort 799kr / mån</option>
+                  <option value="Årskort">Årskort 799kr / mån</option>
+                  <option value="Halvårskort">Halvårskort 899kr / mån</option>
+                  <option value="Månadsskort">Månadsskort 1099kr / mån</option>
+                  <option value="Klippkort">Klippkort 950kr / mån</option>
+                  <option value="Student"
+                    >Student/Blåljus Årskort 599kr / mån</option
+                  ><option value="Ungdom">Ungdom Årskort 399kr / mån</option>
+                  <option value="Nybörjarkurs">Nybörjarkurs 999kr</option>
+                </select>
+                <br />
+                <input type="checkbox" name="medlemsavgift" class="checkbox" />
+                Jag godkänner att betalning av ovanstående medlemsavgift för den
+                valda perioden.
+                <br />
+                <input type="checkbox" name="betalning" class="checkbox" /> Jag
+                godkänner 14 betalningsdagar per faktura. <br />
+                <input type="checkbox" name="personuppgift" class="checkbox" />
+                Jag godkänner att mina personuppgifter sparas för fakturering
+                och passbokning.
+                <br />
+              </div>
+              <button type="submit" class="btn-dark">Skicka</button>
+            </form>
+          </div>
+          <aside class="card-red note">
+            <h4 class="card-head">Tänk på:</h4>
+            <p>
+              Medlemskapet rullar på om det inte aktivt sägs upp. Efter
+              bindningstidens slut har man 3 månaders uppsägningstid.
+            </p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer-content container">
+        <p class="rights">Copyright &copy; 2020 All Rights Reserved</p>
+        <div class="social">
+          <a href="https://www.facebook.com/tullingecrossfit/"
+            ><i class="fab fa-facebook fa-2x"></i
+          ></a>
+          <a href="https://www.instagram.com/tullingecrossfit/"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
