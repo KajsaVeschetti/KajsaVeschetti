@@ -1,0 +1,491 @@
+.wrapper {
+  max-width: 1000px;
+  min-height: 100vh;
+  position: relative;
+  margin: auto;
+  background-image: url(./img/bakgrundsbild2.svg);
+  background-repeat: no-repeat;
+  background-position-y: 5em;
+  background-size: cover;
+  background-position:center top;
+  background-color: #f9f9f9;
+}
+
+.contentWrap {
+  padding-bottom: 7em;
+}
+
+html {
+  width: 100vw;
+  height: 100%;
+  background-color: #f9f9f9 !important;
+}
+
+body {
+  max-width: auto;
+  min-height: 100%;
+  background-color: #f9f9f9 !important;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+a{
+  text-decoration: none;
+}
+
+
+h1, h2, h3, h4, h5 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: "Segoe UI Light";
+}
+
+.App {
+  text-align: center;
+  margin: auto; 
+}
+
+
+
+/*--------------------  Navbar  --------------------*/
+
+.navbar {
+  margin-top: 0;
+  margin-bottom: 3em; 
+  background-color: #f9f9f9;
+  font-weight: 600;
+}
+
+.navLogo{
+  width: 120px;
+}
+
+.navLink{
+  font-family: 'Segoe UI Light';
+  font-size: 24px;
+  text-decoration: none;
+  padding-top: 25px;
+  padding-right: 50px;
+  padding-left: 50px;
+  color: #5f5f5f;
+}
+
+.navLink:hover{
+  text-decoration: underline 4px #17A2B8;
+  color: #5f5f5f;
+}
+
+
+.activeLink{
+  text-decoration: underline 4px #17A2B8;
+}
+
+
+/*---------------------  Footer  --------------------*/
+
+footer {
+  margin: 0 auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footerStyle{
+  font-size: 1em;
+  text-decoration: none;
+  list-style: none;
+  float: center;
+  display: inline;
+  list-style-type: none;
+}
+
+.footerLinks{
+  margin: 1.25em;
+  color: #5f5f5f;
+}
+
+.footerLogo {
+  font-size: 1.5em;
+  margin: 5px;
+  color: #5f5f5f;
+}
+
+.fixedFooter{
+  bottom: 0;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 0.5em;
+  max-width: 1000px;
+  justify-content: center;
+}
+
+.fixedFooter li{
+  display: inline-block
+}
+
+footer .footerLogo:hover{
+  color:rgba(41, 90, 116, 0.9)
+}
+
+/*---------------------  Container -------------------*/
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.chartContainer{
+  margin: 0 auto 16px auto;
+  height: auto;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  padding: 16px;
+}
+
+div.charts {
+  background: rgba(249, 249, 249, 0.8);
+  border: 1px solid #999;
+  border-radius: 5px;
+  padding-bottom: 1em;
+  padding-top: 0.5em;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.chartsTitel {
+  background-color: rgba(41, 90, 116, 0.9) ;
+  color: #f9f9f9;
+  padding: 2em;
+  border-radius: 5px 5px 0 0 ;
+}
+
+.chartsTitel h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.containerTitle{
+  background-color: rgba(41, 90, 116, 0.9) ;
+  color: #f9f9f9;
+  padding: 1.7em;
+  margin-top: -0.4em;
+  border-radius: 5px 5px 0 0 ;
+}
+
+.containerTitle h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+
+/* -------------------------  Charts Data Abbreviations  ------------------------- */
+/* 
+.dataAbbrContainer {
+  text-align:center;
+  margin-left: 3.5em;
+}
+
+.dataAbbrGas, .dataAbbrLiq, .dataAbbrSol, .dataAbbrCem, .dataAbbrFlar {
+  font-size: 14px;
+  color: #5f5f5f;
+  text-decoration: none;
+  list-style-type: none; 
+  padding: 0.5em;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 80%;
+  text-align: center;
+}
+
+.dataAbbrGas {
+  border-left: #d9534f solid 15px;
+}
+
+.dataAbbrLiq {
+  border-left: #5bc0de solid 15px;
+}
+
+.dataAbbrSol {
+  border-left: #5cb85c solid 15px;
+} 
+
+.dataAbbrCem {
+  border-left: #428bca solid 15px;
+}
+
+.dataAbbrFlar {
+  border-left: #d9534f solid 15px;
+} */
+
+
+/* -------------------------  CommentComponent  ------------------------- */
+
+.comFirstRow {
+ border-bottom: solid 1em #0090AA;
+}
+
+.comCompStyle{
+  margin: 5em;
+}
+
+.comCompStyle h1 {
+  text-align: center;
+  margin: auto auto;
+  padding: 3em 2em 1em;
+}
+
+.comImg {
+  padding: 3em 0em 0em 5em;
+  margin-bottom: 0;
+}
+
+.comFormLabel {
+  margin: auto auto;
+  padding: 1em 0 0.5em 0;
+}
+
+.comFormInput {
+  max-width: 80%;
+  margin: auto auto;
+}
+
+.comDisplayContainer {  
+  border-left: solid #17A2B8 0.3em;
+  border-top: solid #17A2B8 0.2em;
+  border-radius: 1em;
+  padding: 0.5em;
+  margin: 2em 2em;
+}
+
+.comDisplayName {
+  text-align: right;
+}
+
+.comDisplayComment {
+  text-align: left;
+}
+
+
+/* -------------------------  LikeButton  ------------------------- */
+
+.likeBtnContainer {
+  display: inline-block;
+  color: #555;
+  text-align: right;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.likeBtnContainer span {
+  padding: 0 0 0 0.2em ;
+}
+
+.likeBtnIcon {
+  color: lightgrey;
+}
+
+
+/* -------------------------  quizComponent  ------------------------- */
+
+.btnWrap {
+  margin: 4px;
+  padding-bottom: 7px;
+  padding-top: 4px;
+}
+  
+.questWrap {
+  padding-bottom: 2em;
+}
+
+.wrap{
+  font-size: 20px;
+  padding-bottom: 1em;
+  padding-top: 2em;
+  
+
+}
+
+
+/* -------------------------  ReadMoreComponent - Diagrams  ------------------------- */
+
+.extra {
+  width: 600px;
+  padding: 1em;
+}
+
+
+/*----------------------  Popup  ----------------------*/
+
+.popup{
+ 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+  list-style: none;
+  padding-top:2em;
+}
+
+.popupButton {
+  width: 250px;
+  height: 125px;
+  border-radius: 7px;
+  border: 1px #555;
+  color: #f9f9f9;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+h2.chartTitle {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #f9f9f9;
+  text-align: center;
+}
+
+.diagramInput {
+  text-align: center;
+  width: 75%;
+  padding: 8px 15px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.chartHeader h3 {
+  text-align: center;
+  color: #555;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  padding-top: .1em;
+}
+.chartHeader h4 {
+  text-align: center;
+  color: #555;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  padding-bottom: 1em;
+  margin-top: 1em;
+  
+}
+
+
+/*----------------------  About us / Contact  ----------------------*/
+
+.conTitle {
+  text-align: center;
+  margin: 3em auto 1em auto;
+  padding-top: 1em;
+  padding-bottom: 0.3em;
+}
+
+.conIntroTxt {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 2em;
+}
+
+.conAboutContainer {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.aboutCard {
+  border: green 5px solid;
+  width:23%;
+  margin-bottom: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aboutUsImg {
+  border: double #17A2B8 1em;
+  padding: 0.5em 0.5em 0 0.5em;
+}
+
+.conReadMoreBtn {
+  margin: 0.5em auto;
+}
+
+.conAboutPerson {
+ margin-top: 0.5em;
+ padding-bottom: 1em;
+}
+
+.conFormContainer {
+  text-align: left;
+}
+
+.conFormLabel {
+  margin-top: 1em;
+  padding-left: 0.5em;
+}
+
+.text-muted {
+  padding-left: 0.5em;
+}
+
+.sendBtn {
+  background:#34627A !important;
+  margin: 1.5em auto 0 auto;
+}
+
+
+/*----------------------  Fakta  ----------------------*/
+
+.nav-link.active {
+  font-weight: bold;
+  color: #5f5f5f !important;
+  background-color: #f9f9f9 !important;
+}
+
+.tabitem1{
+  color: #f9f9f9;
+  background-color: rgba(41, 170, 225, 0.9);
+}
+
+.tabitem2{
+  color: #f9f9f9;
+  background-color: rgba(68, 118, 128, 0.9);
+}
+
+
+.tabitem3{
+  color: #f9f9f9;
+  background-color: rgba(0, 144, 170, 0.9);
+}
+
+
+.tabitem4{
+  color: #f9f9f9;
+  background-color: rgba(20, 109, 177, 0.9);
+}
+
+.tabitem1:hover, .tabitem2:hover, .tabitem3:hover, .tabitem4:hover {
+  color: white;
+}
+
+
+/*----------------------  ? Vilken Component ?  ----------------------*/
+
+@media only screen and (max-width: 600px) {
+
+  .popup{
+    display: grid;
+    grid-template-columns: 1fr; 
+  }
+
+  div.charts {
+    padding-top: 0;
+    margin-top: -12px; 
+  }
+
+
+}
+
+ 
